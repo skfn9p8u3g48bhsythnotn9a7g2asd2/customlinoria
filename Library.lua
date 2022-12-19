@@ -1288,7 +1288,7 @@ do
         });
 
         local Container = Library:Create('Frame', {
-            BackgroundTransparency = 0.5;
+            BackgroundTransparency = 1;
             ClipsDescendants = true;
 
             Position = UDim2.new(0, 5, 0, 0);
@@ -1656,7 +1656,7 @@ do
         end;
 
         local function Round(Value)
-            if Slider.Rounding == 0 then
+            if Slider.Rounding == 5 then
                 return math.floor(Value);
             end;
 
