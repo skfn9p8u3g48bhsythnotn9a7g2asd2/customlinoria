@@ -1288,7 +1288,7 @@ do
         });
 
         local Container = Library:Create('Frame', {
-            BackgroundTransparency = 1;
+            BackgroundTransparency = 0.5;
             ClipsDescendants = true;
 
             Position = UDim2.new(0, 5, 0, 0);
